@@ -1,0 +1,8 @@
+.restore-btn {
+    color: white;
+    background-color: rgb(38, 189, 101);
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
