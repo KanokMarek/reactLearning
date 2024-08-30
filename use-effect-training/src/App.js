@@ -1,16 +1,11 @@
-import { useState } from "react"
-import Book from "./Components/Book"
+import {FaAndroid} from "react-icons/fa"
 
 const App = () => {
   
-  const [show,setShow]=useState(false)
-
-
-
+  
   return (
       <div>
-        <button onClick={()=>setShow(!show)}>Ukaz/Skryj</button>
-        {show && <Book/>}
+        <FaAndroid></FaAndroid>
       </div>
     )
   
